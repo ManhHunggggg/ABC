@@ -35,7 +35,7 @@ function firstQuestion(){
 
  // switch button position
  function switchButton() {
-    var audio = new Audio('sound/duck.mp3');
+    var audio = new Audio('./nope_construction_worker_tf2_gaming_sound_effect_hd_-8446649686455146027.mp3');
     audio.play();
     var leftNo = $('#no').css("left");
     var topNO = $('#no').css("top");
@@ -48,7 +48,7 @@ function firstQuestion(){
 }
 // move random button póition
 function moveButton() {
-    var audio = new Audio('sound/Swish1.mp3');
+    var audio = new Audio('./nope_construction_worker_tf2_gaming_sound_effect_hd_-8446649686455146027.mp3');
     audio.play();
     var x = Math.random() * ($(window).width() - $('#no').width()) * 0.9 ;
     var y = Math.random() * ($(window).height() - $('#no').height()) * 0.9;
@@ -96,7 +96,7 @@ function textGenerate() {
 
 // show popup
 $('#yes').click(function() {
-    var audio = new Audio('sound/tick.mp3');
+    var audio = new Audio('./GTA-San-Andreas-Mission-Passed.mp3');
     audio.play();
     Swal.fire({
         title: CONFIG.question,
