@@ -101,7 +101,7 @@ $('#yes').click(function() {
     Swal.fire({
         title: CONFIG.question,
         html: true,
-        width: 900,
+        width: 800,
         padding: '3em',
         html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder=' Trả lời đê, mau lên🙄🙄🙄'>",
         background: '#fff url("./iput-bg.jpg")',
