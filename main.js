@@ -108,7 +108,7 @@ $('#yes').click(function() {
         backdrop: `
               rgba(0,0,123,0.4)
               url("./18559ccfe163425e8328d4255049b817.gif")
-              left top
+              center top
               no-repeat
             `,
         confirmButtonColor: '#3085d6',
