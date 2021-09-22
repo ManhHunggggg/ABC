@@ -6,11 +6,11 @@ const CONFIG = {
     desc: 'Nêú mà nói dối là phải iu tớ suốt đời đó🤭🤭🤭 ',
     btnYes: 'Xinhhhhhh <33',
     btnNo: 'Xấu vcl :3',
-    question: ' Xinh như thế nào???',
+    question: ' Ủa đằng ấy bấm nhầm hả🤣🤣🤣... Nếu ko thì nói đi... Tớ Xinh như thế nào???',
     btnReply: 'Gửi cho Hoa',
     reply: 'Hoa hỏi khó quá đi à... Tớ chỉ biết nói là... Quỳnh Hoa xinh gái nhất quả đất. Hihi ♥️♥️♥️',
     mess: 'Ahihi , tớ biết mà. Thật thà vậy có phải đáng iu ko🥰🥰🥰',
     messDesc: 'Add FB Hoa nè.',
-    btnAccept: 'Okiiiii lun <3',
+    btnAccept: 'Lettsssss goo!!!',
     messLink: 'https://www.facebook.com/profile.php?id=100070693515932'
 }
