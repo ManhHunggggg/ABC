@@ -26,7 +26,7 @@ function firstQuestion(){
         imageWidth: 300,
         imageHeight: 300,
         background: '#fff url("./iput-bg.jpg")',
-        imageAlt: 'Custom image',
+        imageAlt: 'Quỳnh Hoa',
         confirmButtonText: CONFIG.btnIntro
       }).then(function(){
         $('.content').show(200);
