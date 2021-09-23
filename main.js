@@ -25,7 +25,7 @@ function firstQuestion(){
         imageUrl: './IMG_20210919_161312.jpg',
         imageWidth: 300,
         imageHeight: 300,
-        background: '#fff url("./feccffc8437bdaafe9ed9effce083bf8.gif")',
+        background: '#fff url("./30-hinh-anh-gif-dep-3d-van-nguoi-me-anh-dong-3d-dep-nhat-12.gif")',
         imageAlt: 'Quỳnh Hoa',
         confirmButtonText: CONFIG.btnIntro
       }).then(function(){
@@ -104,7 +104,7 @@ $('#yes').click(function() {
         width: 800,
         padding: '3em',
         html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder=' Trả lời đê, mau lên🙄🙄🙄'>",
-        background: '#fff url("./feccffc8437bdaafe9ed9effce083bf8.gif")',
+        background: '#fff url("./30-hinh-anh-gif-dep-3d-van-nguoi-me-anh-dong-3d-dep-nhat-12.gif")',
         backdrop: `
               rgba(0,0,123,0.4)
               url("./18559ccfe163425e8328d4255049b817.gif")
@@ -119,7 +119,7 @@ $('#yes').click(function() {
             Swal.fire({
                 width: 900,
                 confirmButtonText: CONFIG.btnAccept,
-                background: '#fff url("./feccffc8437bdaafe9ed9effce083bf8.gif")',
+                background: '#fff url("./30-hinh-anh-gif-dep-3d-van-nguoi-me-anh-dong-3d-dep-nhat-12.gif")',
                 title: CONFIG.mess,
                 text: CONFIG.messDesc,
                 confirmButtonColor: '#83d0c9',
