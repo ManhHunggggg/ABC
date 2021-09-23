@@ -37,33 +37,35 @@
 }
 
 .swal2-title, .swal2-content{
-  color: pink !important;
+  color: azure !important;
 }
 .swal2-popup {
   border-radius: 10px !important;
 }
 
 header h2 {
+  color: pink;
   font-family: 'Roboto', sans-serif;
   font-size: 80px;
   text-align: center;
 	margin-bottom: 30px;
 }
 header h4 {
+  color: pink;
   font-family: 'Roboto', sans-serif;
   text-align: center;
 }
 
 @media only screen and (max-width: 500px) {
   header h2 {
-    color: pink;
+    
     font-family: 'Roboto', sans-serif;
     font-size: 45px;
     text-align: center;
     margin-bottom: 30px;
   }
   header h4 {
-    color: pink;
+    
     font-family: 'Roboto', sans-serif;
     text-align: center;
     padding: 15px;
