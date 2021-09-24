@@ -2,7 +2,15 @@
     position: relative;
     z-index: 3;
   }
-
+.divContainer
+{
+    vertical-align: middle;
+    text-align: center; <!-- If you want horizontal center alignment -->
+}
+.divContainer > *
+{
+    vertical-align: middle;
+}
   #snow {
     position: fixed;
     top: 0;
