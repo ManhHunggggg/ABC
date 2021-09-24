@@ -2,7 +2,9 @@
     position: relative;
     z-index: 3;
   }
-  
+  #loading {
+  text-align: center;
+  }
   #snow {
     position: fixed;
     top: 0;
