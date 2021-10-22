@@ -96,7 +96,7 @@ function textGenerate() {
 
 // show popup
 $('#yes').click(function() {
-    var audio = new Audio('./GTA-San-Andreas-Mission-Passed.mp3');
+    var audio = new Audio('./PleaseTellMeWhy.mp3');
     audio.play();
     Swal.fire({
         title: CONFIG.question,
