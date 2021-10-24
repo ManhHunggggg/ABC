@@ -61,6 +61,32 @@
     <script src="./main.js"></script>
     <script src="./snow.js"></script>
     <script src="./slide.js"></script>
+    <script>
+<!--
+/* Copyright http://www.perlscriptsjavascripts.com 
+   Free and commercial Perl and JavaScripts     */
 
+isNN = document.layers ? 1 : 0; 
+
+function noContext(){return false;}
+
+function noClick(e){
+    if(isNN){
+        if(e.which > 1) {return false;}
+    } else { 
+        if(event.button > 1){return false;}
+    }
+}
+
+if(isNN){ 
+    document.captureEvents(Event.MOUSEDOWN);
+}
+
+document.oncontextmenu = noContext;
+document.onmousedown   = noClick;
+document.onmouseup     = noClick;
+
+// -->
+</script>
   </body>
 </html>
