@@ -15,6 +15,89 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<style>
+
+.player {
+    background-color: rgb(242,49,179);
+    width: 60%;
+    left: 20%;
+    right: 20%;
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+    justify-content: center;
+    align-items: center;
+}
+
+.control,#current {
+    color: #FAFAFA;
+    text-shadow: 0 0 0.5em cyan, 0 0 0.5em cyan;
+    font-size: 28px;
+    font-weight: 600;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 16px;
+}
+
+#playbtn {
+    
+    text-shadow: 0 0 0.5em cyan, 0 0 0.5em cyan;
+    font-size: 28px;
+    color: #FAFAFA;
+    font-weight: 600;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FAFAFA;
+    cursor: pointer rgb(145,241,81)
+}
+
+#playbtn:hover {
+    -webkit-text-fill-color: #FAFAFA;
+}
+
+.info {
+    color: #FAFAFA;
+    font-weight: 600;
+    text-shadow: 0 0 0.5em cyan, 0 0 0.5em cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+}
+
+#current {
+    text-align: right;
+}
+
+.bar {
+    --space: -4px;
+    background-color: #fff;
+    overflow: hidden;
+    left: var(--space);
+    right: var(--space);
+    top: var(--space);
+    bottom: var(--space);
+    position: absolute;
+    border-radius: 64px;
+    z-index: -2;
+    text-shadow: 0 0 0.5em cyan, 0 0 0.5em cyan;
+    opacity: 0;
+}
+
+#progress {
+    display: block;
+    width: var(--progress,0%);
+    background-color: #fff;
+    text-shadow: 0 0 0.5em cyan, 0 0 0.5em cyan;
+    transition: all 1s linear;
+    height: 100%;
+}
+</style>
 </head>
 <body>
   <div id="snow"></div>
