@@ -1,5 +1,5 @@
 
-   audio = new Audio("https://hungdeptrai.com/Two Steps From Hell - Evergreen Extended.mp3");
+   audio = new Audio("https://quynhhoa.org/y2meta.com - Hello Viet Nam║Pham Quynh Anh HD║Lyrics[HD Kara + Vietsub] (320 kbps).mp3");
 
 document.onclick = function() {
   audio.play();
